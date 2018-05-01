@@ -1,0 +1,1 @@
+leveldb/util/libleveldb_a-env_win.o: leveldb/util/env_win.cc

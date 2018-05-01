@@ -1,0 +1,149 @@
+src/libsecp256k1_la-secp256k1.lo: src/secp256k1.c include/secp256k1.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stddef.h \
+ /usr/share/mingw-w64/include/stddef.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_directx.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h src/util.h \
+ src/libsecp256k1-config.h /usr/share/mingw-w64/include/stdlib.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/share/mingw-w64/include/malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stdint.h \
+ /usr/share/mingw-w64/include/stdint.h \
+ /usr/share/mingw-w64/include/stdio.h \
+ /usr/share/mingw-w64/include/_mingw_print_push.h \
+ /usr/share/mingw-w64/include/_mingw_off_t.h \
+ /usr/x86_64-w64-mingw32/include/swprintf.inl \
+ /usr/share/mingw-w64/include/sec_api/stdio_s.h \
+ /usr/share/mingw-w64/include/_mingw_print_pop.h src/num_impl.h src/num.h \
+ src/field_impl.h src/field_5x52_impl.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h src/field.h \
+ src/field_5x52.h src/field_5x52_asm_impl.h src/scalar_impl.h src/group.h \
+ src/scalar.h src/scalar_4x64.h src/scalar_4x64_impl.h src/group_impl.h \
+ src/ecmult_impl.h src/ecmult.h src/ecmult_const_impl.h \
+ src/ecmult_const.h src/ecmult_gen_impl.h src/ecmult_gen.h \
+ src/hash_impl.h src/hash.h src/ecmult_static_context.h src/ecdsa_impl.h \
+ src/ecdsa.h src/eckey_impl.h src/eckey.h \
+ src/modules/recovery/main_impl.h include/secp256k1_recovery.h \
+ include/secp256k1.h
+
+include/secp256k1.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stddef.h:
+
+/usr/share/mingw-w64/include/stddef.h:
+
+/usr/share/mingw-w64/include/crtdefs.h:
+
+/usr/share/mingw-w64/include/_mingw.h:
+
+/usr/share/mingw-w64/include/_mingw_mac.h:
+
+/usr/share/mingw-w64/include/_mingw_secapi.h:
+
+/usr/share/mingw-w64/include/vadefs.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_directx.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
+
+src/util.h:
+
+src/libsecp256k1-config.h:
+
+/usr/share/mingw-w64/include/stdlib.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/syslimits.h:
+
+/usr/share/mingw-w64/include/limits.h:
+
+/usr/share/mingw-w64/include/sec_api/stdlib_s.h:
+
+/usr/share/mingw-w64/include/malloc.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stdint.h:
+
+/usr/share/mingw-w64/include/stdint.h:
+
+/usr/share/mingw-w64/include/stdio.h:
+
+/usr/share/mingw-w64/include/_mingw_print_push.h:
+
+/usr/share/mingw-w64/include/_mingw_off_t.h:
+
+/usr/x86_64-w64-mingw32/include/swprintf.inl:
+
+/usr/share/mingw-w64/include/sec_api/stdio_s.h:
+
+/usr/share/mingw-w64/include/_mingw_print_pop.h:
+
+src/num_impl.h:
+
+src/num.h:
+
+src/field_impl.h:
+
+src/field_5x52_impl.h:
+
+/usr/share/mingw-w64/include/string.h:
+
+/usr/share/mingw-w64/include/sec_api/string_s.h:
+
+src/field.h:
+
+src/field_5x52.h:
+
+src/field_5x52_asm_impl.h:
+
+src/scalar_impl.h:
+
+src/group.h:
+
+src/scalar.h:
+
+src/scalar_4x64.h:
+
+src/scalar_4x64_impl.h:
+
+src/group_impl.h:
+
+src/ecmult_impl.h:
+
+src/ecmult.h:
+
+src/ecmult_const_impl.h:
+
+src/ecmult_const.h:
+
+src/ecmult_gen_impl.h:
+
+src/ecmult_gen.h:
+
+src/hash_impl.h:
+
+src/hash.h:
+
+src/ecmult_static_context.h:
+
+src/ecdsa_impl.h:
+
+src/ecdsa.h:
+
+src/eckey_impl.h:
+
+src/eckey.h:
+
+src/modules/recovery/main_impl.h:
+
+include/secp256k1_recovery.h:
+
+include/secp256k1.h:

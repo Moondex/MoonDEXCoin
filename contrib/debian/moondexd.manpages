@@ -1,0 +1,3 @@
+debian/manpages/moondexd.1
+debian/manpages/moondex.conf.5
+debian/manpages/moondex-cli.1

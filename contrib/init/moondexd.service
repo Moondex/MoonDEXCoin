@@ -1,0 +1,22 @@
+[Unit]
+Description=MoonDEX's distributed currency daemon
+After=network.target
+
+[Service]
+User=moondexcore
+Group=moondexcore
+
+Type=forking
+PIDFile=/var/lib/moondexd/moondexd.pid
+ExecStart=/usr/bin/moondexd -daemon -pid=/var/lib/moondexd/moondexd.pid \
+-conf=/etc/moondexcore/moondex.conf -datadir=/var/lib/moondexd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

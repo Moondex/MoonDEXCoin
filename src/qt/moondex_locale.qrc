@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/moondex_bg.qm</file>
+        <file alias="de">locale/moondex_de.qm</file>
+        <file alias="en">locale/moondex_en.qm</file>
+        <file alias="es">locale/moondex_es.qm</file>
+        <file alias="fi">locale/moondex_fi.qm</file>
+        <file alias="fr">locale/moondex_fr.qm</file>
+        <file alias="it">locale/moondex_it.qm</file>
+        <file alias="ja">locale/moondex_ja.qm</file>
+        <file alias="pl">locale/moondex_pl.qm</file>
+        <file alias="pt">locale/moondex_pt.qm</file>
+        <file alias="ru">locale/moondex_ru.qm</file>
+        <file alias="sk">locale/moondex_sk.qm</file>
+        <file alias="sv">locale/moondex_sv.qm</file>
+        <file alias="vi">locale/moondex_vi.qm</file>
+        <file alias="zh_CN">locale/moondex_zh_CN.qm</file>
+        <file alias="zh_TW">locale/moondex_zh_TW.qm</file>
+    </qresource>
+</RCC>

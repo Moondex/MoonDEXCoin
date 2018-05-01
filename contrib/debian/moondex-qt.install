@@ -1,0 +1,6 @@
+usr/local/bin/moondex-qt usr/bin
+share/pixmaps/moondex32.xpm usr/share/pixmaps
+share/pixmaps/moondex16.xpm usr/share/pixmaps
+share/pixmaps/moondex128.png usr/share/pixmaps
+debian/moondex-qt.desktop usr/share/applications
+debian/moondex-qt.protocol usr/share/kde4/services/
