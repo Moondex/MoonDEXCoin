@@ -804,7 +804,7 @@ fi
 
 
     PACKAGE='moondexcore'
-    VERSION='2.0.0'
+    VERSION='2.0.1'
     TIMESTAMP=''
     RM='rm -f'
     ofile='libtool'
@@ -1147,7 +1147,7 @@ S["AUTOHEADER"]="${SHELL} /moondexcoin/build-aux/missing autoheader"
 S["AUTOMAKE"]="${SHELL} /moondexcoin/build-aux/missing automake-1.14"
 S["AUTOCONF"]="${SHELL} /moondexcoin/build-aux/missing autoconf"
 S["ACLOCAL"]="${SHELL} /moondexcoin/build-aux/missing aclocal-1.14"
-S["VERSION"]="2.0.0"
+S["VERSION"]="2.0.1"
 S["PACKAGE"]="moondexcore"
 S["CYGPATH_W"]="echo"
 S["am__isrc"]=""
@@ -1197,7 +1197,7 @@ S["exec_prefix"]="${prefix}"
 S["PACKAGE_URL"]=""
 S["PACKAGE_BUGREPORT"]="https://github.com/moondexcoin/moondexcoin/issues"
 S["PACKAGE_STRING"]="MoonDEX 2.0.1"
-S["PACKAGE_VERSION"]="2.0.0"
+S["PACKAGE_VERSION"]="2.0.1"
 S["PACKAGE_TARNAME"]="moondexcore"
 S["PACKAGE_NAME"]="MoonDEX"
 S["PATH_SEPARATOR"]=":"
@@ -1245,7 +1245,7 @@ cat >"$ac_tmp/defines.awk" <<\_ACAWK ||
 BEGIN {
 D["PACKAGE_NAME"]=" \"MoonDEX\""
 D["PACKAGE_TARNAME"]=" \"moondexcore\""
-D["PACKAGE_VERSION"]=" \"2.0.0\""
+D["PACKAGE_VERSION"]=" \"2.0.1\""
 D["PACKAGE_STRING"]=" \"MoonDEX 2.0.1\""
 D["PACKAGE_BUGREPORT"]=" \"https://github.com/moondexcoin/moondexcoin/issues\""
 D["PACKAGE_URL"]=" \"\""

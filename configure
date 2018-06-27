@@ -590,7 +590,7 @@ MAKEFLAGS=
 # Identity of this package.
 PACKAGE_NAME='MoonDEX'
 PACKAGE_TARNAME='moondexcore'
-PACKAGE_VERSION='2.0.0'
+PACKAGE_VERSION='2.0.1'
 PACKAGE_STRING='MoonDEX 2.0.1'
 PACKAGE_BUGREPORT='https://github.com/moondexcoin/moondexcoin/issues'
 PACKAGE_URL=''
@@ -3554,7 +3554,7 @@ fi
 
 # Define the identity of the package.
  PACKAGE='moondexcore'
- VERSION='2.0.0'
+ VERSION='2.0.1'
 
 
 # Some tools Automake needs.

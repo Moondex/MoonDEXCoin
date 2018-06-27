@@ -267,7 +267,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -292,7 +292,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -312,7 +312,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -332,7 +332,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -537,7 +537,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -557,7 +557,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -615,7 +615,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -721,7 +721,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -752,7 +752,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -952,7 +952,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1009,7 +1009,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1088,7 +1088,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1157,7 +1157,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1254,7 +1254,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1346,7 +1346,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1446,7 +1446,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1509,7 +1509,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1572,7 +1572,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1640,7 +1640,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1731,7 +1731,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1791,7 +1791,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1882,7 +1882,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -1942,7 +1942,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2033,7 +2033,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2113,7 +2113,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2210,7 +2210,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2276,7 +2276,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2373,7 +2373,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2437,7 +2437,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2511,7 +2511,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2597,7 +2597,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2709,7 +2709,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2795,7 +2795,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2882,7 +2882,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -2970,7 +2970,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -3059,7 +3059,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -3149,7 +3149,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -3240,7 +3240,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -3332,7 +3332,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -3425,7 +3425,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -3519,7 +3519,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -3614,7 +3614,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -3710,7 +3710,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -3807,7 +3807,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -3903,7 +3903,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -4000,7 +4000,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -4110,7 +4110,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -4202,7 +4202,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -4297,7 +4297,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -4392,7 +4392,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -4488,7 +4488,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -4583,7 +4583,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -4676,7 +4676,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -4770,7 +4770,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -4869,7 +4869,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -4966,7 +4966,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -5063,7 +5063,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -5160,7 +5160,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -5257,7 +5257,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -5354,7 +5354,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -5451,7 +5451,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -5548,7 +5548,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -5645,7 +5645,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -5742,7 +5742,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -5839,7 +5839,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -5936,7 +5936,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -6033,7 +6033,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -6130,7 +6130,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -6227,7 +6227,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -6324,7 +6324,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -6421,7 +6421,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -6518,7 +6518,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -6711,7 +6711,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -6809,7 +6809,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -6910,7 +6910,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -7011,7 +7011,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -7115,7 +7115,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -7216,7 +7216,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -7317,7 +7317,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -7421,7 +7421,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -7526,7 +7526,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -7681,7 +7681,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -7795,7 +7795,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -8019,7 +8019,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -8192,7 +8192,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -8333,7 +8333,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -8442,7 +8442,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -8584,7 +8584,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -8751,7 +8751,7 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "MoonDEX"
 | #define PACKAGE_TARNAME "moondexcore"
-| #define PACKAGE_VERSION "2.0.0"
+| #define PACKAGE_VERSION "2.0.1"
 | #define PACKAGE_STRING "MoonDEX 2.0.1"
 | #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 | #define PACKAGE_URL ""
@@ -9417,7 +9417,7 @@ PACKAGE_NAME='MoonDEX'
 PACKAGE_STRING='MoonDEX 2.0.1'
 PACKAGE_TARNAME='moondexcore'
 PACKAGE_URL=''
-PACKAGE_VERSION='2.0.0'
+PACKAGE_VERSION='2.0.1'
 PATH_SEPARATOR=':'
 PIC_FLAGS=''
 PIE_FLAGS=''
@@ -9486,7 +9486,7 @@ USE_QRCODE=''
 USE_QRCODE_FALSE='#'
 USE_QRCODE_TRUE=''
 USE_UPNP=''
-VERSION='2.0.0'
+VERSION='2.0.1'
 WINDOWS_BITS='64'
 WINDRES='/usr/bin/x86_64-w64-mingw32-windres'
 X11XCB_CFLAGS=''
@@ -9559,7 +9559,7 @@ target_alias=''
 /* confdefs.h */
 #define PACKAGE_NAME "MoonDEX"
 #define PACKAGE_TARNAME "moondexcore"
-#define PACKAGE_VERSION "2.0.0"
+#define PACKAGE_VERSION "2.0.1"
 #define PACKAGE_STRING "MoonDEX 2.0.1"
 #define PACKAGE_BUGREPORT "https://github.com/moondexcoin/moondexcoin/issues"
 #define PACKAGE_URL ""
