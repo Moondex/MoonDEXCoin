@@ -1,6 +1,6 @@
-MoonDEX version 2.0.0 is now available from:
+MoonDEX version 2.0.1 is now available from:
 
-  <https://moondexcoin.io>
+  <https://github.com/Moondex/MoonDEXCoin/releases>
 
 
 

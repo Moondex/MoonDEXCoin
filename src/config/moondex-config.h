@@ -357,7 +357,7 @@
 #define PACKAGE_NAME "MoonDEX"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "MoonDEX 2.0.0"
+#define PACKAGE_STRING "MoonDEX 2.0.1"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "moondexcore"
