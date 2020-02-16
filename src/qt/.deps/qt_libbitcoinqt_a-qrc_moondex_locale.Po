@@ -1,1 +1,0 @@
-qt/qt_libbitcoinqt_a-qrc_moondex_locale.o: qt/qrc_moondex_locale.cpp
