@@ -13,12 +13,13 @@
 #include "utilstrencodings.h"
 #include "crypto/common.h"
 #include "crypto/neoscrypt.h"
+#include "crypto/Lyra2.h"
 
-uint256 CBlockHeader::GetHash(int nHeight) const
+uint256 CBlockHeader::GetHash(int nHeight, bool fForceLyra) const
 {
         uint256 thash;
-        if (nHeight >= 1000000000 + 10) {
-            lyra2z330(BEGIN(nVersion), BEGIN(thash));
+        if (nHeight >= retargetLwmaHeight + 10 || (fForceLyra && nHeight >= 1)) {
+            LYRA2(BEGIN(thash), 32, BEGIN(nVersion), 80, BEGIN(nVersion), 80, 2, 330, 256);
             return thash;
         }
 

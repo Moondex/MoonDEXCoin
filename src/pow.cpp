@@ -8,6 +8,7 @@
 #include "arith_uint256.h"
 #include "chain.h"
 #include "chainparams.h"
+#include "main.h"
 #include "primitives/block.h"
 #include "uint256.h"
 #include "util.h"
@@ -178,11 +179,11 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
 
     //! flatten the diff for 10 blocks between retarget algorithm/pow algo
-    if (pindexLast->nHeight + 1 >= params.retargetLWMA)
+    if (pindexLast->nHeight + 1 >= retargetLwmaHeight)
         return nProofOfWorkLimit;
 
     //! then switch to lwma
-    if (pindexLast->nHeight + 10 >= params.retargetLWMA)
+    if (pindexLast->nHeight + 10 >= retargetLwmaHeight)
         return Lwma3CalculateNextWorkRequired(pindexLast, params);
 
     unsigned int retarget = DIFF_DGW;
