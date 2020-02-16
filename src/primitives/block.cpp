@@ -17,8 +17,7 @@
 uint256 CBlockHeader::GetHash(int nHeight) const
 {
         uint256 thash;
-        const Consensus::Params& consensusParams = Params().GetConsensus();
-        if (nHeight >= consensusParams.retargetLWMA + 10) {
+        if (nHeight >= 1000000000 + 10) {
             lyra2z330(BEGIN(nVersion), BEGIN(thash));
             return thash;
         }
