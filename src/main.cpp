@@ -1616,7 +1616,16 @@ bool GetTransaction(const uint256 &hash, CTransaction &txOut, const Consensus::P
             } catch (const std::exception& e) {
                 return error("%s: Deserialize or I/O error - %s", __func__, e.what());
             }
-            hashBlock = header.GetHash();
+            // Required to ensure hash matches headerhash for lookup for masternodetx
+            bool isTestnet = Params().NetworkIDString() == CBaseChainParams::TESTNET;
+            CBlockIndex* pindexPrev = nullptr;
+            int nHeight = 0;
+            BlockMap::iterator mi = mapBlockIndex.find(header.hashPrevBlock);
+            if (mi != mapBlockIndex.end()) {
+                pindexPrev = mi->second;
+                nHeight = pindexPrev->nHeight + 1;
+            }
+            hashBlock = header.GetHash(nHeight, isTestnet);
             if (txOut.GetHash() != hash)
                 return error("%s: txid mismatch", __func__);
             return true;
@@ -1699,8 +1708,18 @@ bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos, const Consensus:
         return error("%s: Deserialize or I/O error - %s at %s", __func__, e.what(), pos.ToString());
     }
 
+    // Required to pass height to GetHash()
+    bool isTestnet = Params().NetworkIDString() == CBaseChainParams::TESTNET;
+    CBlockIndex* pindexPrev = nullptr;
+    int nHeight = 0;
+    BlockMap::iterator mi = mapBlockIndex.find(block.hashPrevBlock);
+    if (mi != mapBlockIndex.end()) {
+        pindexPrev = mi->second;
+        nHeight = pindexPrev->nHeight + 1;
+    }
+
     // Check the header
-    if (!CheckProofOfWork(block.GetHash(), block.nBits, consensusParams))
+    if (!CheckProofOfWork(block.GetHash(nHeight, isTestnet), block.nBits, consensusParams))
         return error("ReadBlockFromDisk: Errors in block header at %s", pos.ToString());
 
     return true;
@@ -3663,6 +3682,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 
 bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool fCheckPOW)
 {
+    // Required to pass height to GetHash()
     CBlockIndex* pindexPrev = nullptr;
     int nHeight = 0;
     BlockMap::iterator mi = mapBlockIndex.find(block.hashPrevBlock);
@@ -3671,16 +3691,10 @@ bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool f
         nHeight = pindexPrev->nHeight + 1;
     }
 
-    if (Params().NetworkIDString() == CBaseChainParams::TESTNET) {
-        if (fCheckPOW && !CheckProofOfWork(block.GetHash(0, true), block.nBits, Params().GetConsensus())) {
-            return state.DoS(50, error("CheckBlockHeader(): proof of work failed"),
-                             REJECT_INVALID, "high-hash");
-        }
-        return true;
-    }
+    bool isTestnet = Params().NetworkIDString() == CBaseChainParams::TESTNET;
 
     // Check proof of work matches claimed amount
-    if (fCheckPOW && !CheckProofOfWork(block.GetHash(nHeight), block.nBits, Params().GetConsensus()))
+    if (fCheckPOW && !CheckProofOfWork(block.GetHash(nHeight, isTestnet), block.nBits, Params().GetConsensus()))
         return state.DoS(50, error("CheckBlockHeader(): proof of work failed"),
                          REJECT_INVALID, "high-hash");
 

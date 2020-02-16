@@ -23,12 +23,11 @@ uint256 CBlockHeader::GetHash(int nHeight, bool fForceLyra) const
             return thash;
         }
 
-        unsigned int profile = 0x0;
-	if(nTime <= 1522584000){ // 2018/04/01 @ 12:00 (UTC)
-        	neoscrypt((unsigned char *) &nVersion, (unsigned char *) &thash, profile);
-        } else {
-		thash = HashX16R(BEGIN(nVersion), END(nNonce), hashPrevBlock);
-	}
+        if(nTime <= 1522584000)
+            neoscrypt((unsigned char *) &nVersion, (unsigned char *) &thash, 0x0);
+        else
+            thash = HashX16R(BEGIN(nVersion), END(nNonce), hashPrevBlock);
+
 	return thash;
 }
 
