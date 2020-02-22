@@ -1770,6 +1770,10 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
         return 1 * COIN; // Anti instamine
     }
 
+    if (nPrevHeight >= retargetLwmaHeight) {
+        return 10 * COIN;
+    }
+
     CAmount nSubsidy = 50 * COIN;
 
     // decline of production by 25% per year.

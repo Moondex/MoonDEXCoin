@@ -178,12 +178,14 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
 {
     unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
 
+    int nHeight = pindexLast->nHeight + 1;
+
     //! flatten the diff for 10 blocks between retarget algorithm/pow algo
-    if (pindexLast->nHeight + 1 >= retargetLwmaHeight)
+    if (nHeight >= retargetLwmaHeight && nHeight <= retargetLwmaHeight + 10)
         return nProofOfWorkLimit;
 
     //! then switch to lwma
-    if (pindexLast->nHeight + 10 >= retargetLwmaHeight)
+    if (nHeight > retargetLwmaHeight + 10)
         return Lwma3CalculateNextWorkRequired(pindexLast, params);
 
     unsigned int retarget = DIFF_DGW;
