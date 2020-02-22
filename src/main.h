@@ -45,7 +45,7 @@ class CValidationState;
 struct CNodeStateStats;
 struct LockPoints;
 
-const int retargetLwmaHeight = 100000000;
+const int retargetLwmaHeight = 456000;
 
 /** Default for accepting alerts from the P2P network. */
 static const bool DEFAULT_ALERTS = true;
