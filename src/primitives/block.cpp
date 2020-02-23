@@ -7,21 +7,28 @@
 #include "primitives/block.h"
 
 #include "hash.h"
+#include "chainparams.h"
 #include "tinyformat.h"
+#include "main.h"
 #include "utilstrencodings.h"
 #include "crypto/common.h"
 #include "crypto/neoscrypt.h"
+#include "crypto/Lyra2.h"
 
-uint256 CBlockHeader::GetHash() const
+uint256 CBlockHeader::GetHash(int nHeight, bool fForceLyra) const
 {
         uint256 thash;
-        unsigned int profile = 0x0;
-		if(nTime <= 1522584000){ // 2018/04/01 @ 12:00 (UTC)
-        	neoscrypt((unsigned char *) &nVersion, (unsigned char *) &thash, profile);
-        } else {
-			thash = HashX16R(BEGIN(nVersion), END(nNonce), hashPrevBlock);
-		}
-		return thash;
+        if (nHeight >= retargetLwmaHeight + 10 || (fForceLyra && nHeight >= 1)) {
+            LYRA2(BEGIN(thash), 32, BEGIN(nVersion), 80, BEGIN(nVersion), 80, 2, 330, 256);
+            return thash;
+        }
+
+        if(nTime <= 1522584000)
+            neoscrypt((unsigned char *) &nVersion, (unsigned char *) &thash, 0x0);
+        else
+            thash = HashX16R(BEGIN(nVersion), END(nNonce), hashPrevBlock);
+
+	return thash;
 }
 
 std::string CBlock::ToString() const

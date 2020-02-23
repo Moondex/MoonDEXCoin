@@ -11,10 +11,11 @@
 #include "util.h"
 #include "utilstrencodings.h"
 #include "arith_uint256.h"
-
+#include "random.h"
 #include <assert.h>
 
 #include <boost/assign/list_of.hpp>
+#include <limits>
 
 #include "chainparamsseeds.h"
 
@@ -120,17 +121,11 @@ public:
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1525105420, 825231, 0x1e0ffff0, 1, 50 * COIN);
-        
         consensus.hashGenesisBlock = genesis.GetHash();
-
         assert(consensus.hashGenesisBlock == uint256S("0x000002a5a6865778ac64a6697448ac5e5c0c77c776a8184721202751f1382177"));
         assert(genesis.hashMerkleRoot == uint256S("0x17bd73b8a4d2c077582e0454983ca3b0a6edfd9cce605e1a81ac3622568df5bb"));
 
-        vSeeds.push_back(CDNSSeedData("seed1", "seed1.moondex.network"));
-        vSeeds.push_back(CDNSSeedData("seed2", "seed2.moondex.network"));
-        vSeeds.push_back(CDNSSeedData("seed3", "seed3.moondex.network"));
-        vSeeds.push_back(CDNSSeedData("seed4", "seed4.moondex.network"));
-        vSeeds.push_back(CDNSSeedData("seed5", "seed5.moondex.network"));
+        vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,76);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,110);
@@ -249,7 +244,7 @@ public:
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
-        fMiningRequiresPeers = true;
+        fMiningRequiresPeers = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = false;
         fMineBlocksOnDemand = false;

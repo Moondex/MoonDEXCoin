@@ -336,7 +336,11 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_types.h \
   crypto/ctaes/ctaes.h \
   crypto/sha512.cpp \
-  crypto/sha512.h
+  crypto/sha512.h \
+  crypto/Sponge.c \
+  crypto/Sponge.h \
+  crypto/Lyra2.c \
+  crypto/Lyra2.h
 
 # common: shared between moondexd, and moondex-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)

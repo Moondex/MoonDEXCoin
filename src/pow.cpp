@@ -8,6 +8,7 @@
 #include "arith_uint256.h"
 #include "chain.h"
 #include "chainparams.h"
+#include "main.h"
 #include "primitives/block.h"
 #include "uint256.h"
 #include "util.h"
@@ -136,8 +137,57 @@ unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const Consens
     return bnNew.GetCompact();
 }
 
+// credit/rights go to zawy (https://github.com/zawy12) for this algorithm
+unsigned int Lwma3CalculateNextWorkRequired(const CBlockIndex* pindexLast, const Consensus::Params& params)
+{
+    const int64_t T = params.nPowTargetSpacing;
+    const int64_t N = 150;
+    const int64_t k = N * (N + 1) * T / 2;
+    const int64_t height = pindexLast->nHeight;
+    const arith_uint256 powLimit = UintToArith256(params.powLimit);
+
+    if (height < N) { return powLimit.GetCompact(); }
+
+    arith_uint256 sumTarget, nextTarget;
+    int64_t thisTimestamp, previousTimestamp;
+    int64_t t = 0, j = 0;
+
+    const CBlockIndex* blockPreviousTimestamp = pindexLast->GetAncestor(height - N);
+    previousTimestamp = blockPreviousTimestamp->GetBlockTime();
+
+    // Loop through N most recent blocks.
+    for (int64_t i = height - N + 1; i <= height; i++) {
+        const CBlockIndex* block = pindexLast->GetAncestor(i);
+        thisTimestamp = (block->GetBlockTime() > previousTimestamp) ?
+                         block->GetBlockTime() : previousTimestamp + 1;
+        int64_t solvetime = std::min(6 * T, thisTimestamp - previousTimestamp);
+        previousTimestamp = thisTimestamp;
+        j++;
+        t += solvetime * j; // Weighted solvetime sum.
+        arith_uint256 target;
+        target.SetCompact(block->nBits);
+        sumTarget += target / (k * N);
+    }
+    nextTarget = t * sumTarget;
+    if (nextTarget > powLimit) { nextTarget = powLimit; }
+
+    return nextTarget.GetCompact();
+}
+
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
+    unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
+
+    int nHeight = pindexLast->nHeight + 1;
+
+    //! flatten the diff for 10 blocks between retarget algorithm/pow algo
+    if (nHeight >= retargetLwmaHeight && nHeight <= retargetLwmaHeight + 10)
+        return nProofOfWorkLimit;
+
+    //! then switch to lwma
+    if (nHeight > retargetLwmaHeight + 10)
+        return Lwma3CalculateNextWorkRequired(pindexLast, params);
+
     unsigned int retarget = DIFF_DGW;
 
     // mainnet/regtest share a configuration
@@ -153,8 +203,6 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     // Default Bitcoin style retargeting
     if (retarget == DIFF_BTC)
     {
-        unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
-
         // Genesis block
         if (pindexLast == NULL)
             return nProofOfWorkLimit;

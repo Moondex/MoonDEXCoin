@@ -1,2 +1,0 @@
-crypto/crypto_libbitcoin_crypto_a-sph_hamsi_helper.o: \
- crypto/sph_hamsi_helper.c

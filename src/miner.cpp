@@ -460,7 +460,7 @@ void static BitcoinMiner(const CChainParams& chainparams)
                 uint256 hash;
                 while (true)
                 {
-                    hash = pblock->GetHash();
+                    hash = pblock->GetHash(0, true);            //! force lyra2z330 for internal miner
                     if (UintToArith256(hash) <= hashTarget)
                     {
                         // Found a solution

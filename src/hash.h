@@ -33,6 +33,8 @@
 extern "C" {
 #include "crypto/sph_sha2.h"
 }
+#include "crypto/Sponge.h"
+#include "crypto/Lyra2.h"
 #include <vector>
 
 typedef uint256 ChainCode;
@@ -496,6 +498,17 @@ inline uint256 HashX16R(const T1 pbegin, const T1 pend, const uint256 PrevBlockH
     }
 
     return hash[15].trim256();
+}
+
+template<typename T1>
+inline uint256 lyra2z330(const T1 pbegin, const T1 pend)
+{
+    char hash[32];
+    uint256 output;
+    int len = (pend - pbegin) * sizeof(pbegin[0]);
+    LYRA2(hash, 32, static_cast<const char*>(&pbegin[0]), 80, static_cast<const char*>(&pbegin[0]), 80, 2, 330, 256);
+    memcpy((void *)&output, hash, 32);
+    return output;
 }
 
 #endif // BITCOIN_HASH_H
