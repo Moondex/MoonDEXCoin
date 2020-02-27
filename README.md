@@ -23,12 +23,12 @@ MoonDEX Coin
 ------------
 
 * Total supply: ~ 51,000,000
-* Algorithm: x16r, Asic Resistant
+* Algorithm: x16r, Asic Resistant | Update from block 456000 to Lyra2z330
 * Block time: 120 seconds
-* Coins per block: 50 MDEXs
+* Coins per block: 50 MDEXs | Update from block 456000 to 10 MDEX.
 * Mining rewards:  20%PoW + 80%PoS, the first 5000 blocks have 1 coin rewards to prevent instamine
 * Halving: 25% every year
 * Symbol: MDEX
 * Masternode collateral: 2500 MDEXs
-* Masternode reward: 40 MDEXs
+* Masternode reward: 40 MDEXs | Update from block 456000 to 8 MDEX
 * Premine: 2.6m
