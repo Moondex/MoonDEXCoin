@@ -3832,7 +3832,12 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
     hashAssumeValid = uint256S(consensusParams.defaultAssumeValid.GetHex());
 
     // Check proof of work
-    if(Params().NetworkIDString() == CBaseChainParams::MAIN && nHeight <= 1938){ //changed consensus at block 1938
+    if(Params().NetworkIDString() == CBaseChainParams::MAIN && nHeight >= retargetLwmaHeight) {
+            if (block.nBits != GetNextWorkRequired(pindexPrev, &block, consensusParams))
+                return state.DoS(100, error("%s : incorrect proof of work at %d", __func__, nHeight),
+                                REJECT_INVALID, "bad-diffbits");
+    }
+    else if(Params().NetworkIDString() == CBaseChainParams::MAIN && nHeight <= 1938) {
         bool fScriptChecks = true;
         // We've been configured with the hash of a block which has been externally verified to have a valid history.
         // A suitable default value is included with the software and updated from time to time.  Because validity
